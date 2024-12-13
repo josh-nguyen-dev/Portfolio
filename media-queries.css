@@ -1,0 +1,67 @@
+/* CSS Breakpoints */
+/* Phone */
+
+@media only screen and (max-width: 600px) {
+
+  .dark-mode {
+    background: #040720;
+    color: white;
+  }
+  
+  .dark-mode * {
+    color: white;
+  }
+  
+  .dark-mode #mainnav {
+    background: inherit;
+    color: inherit;
+  }
+
+  .dark-mode #mainnav li a {
+    color: white;
+  }
+
+  header {
+    background-color: white;
+  }
+
+  .main-logo img {
+    min-width: 50%;
+  }
+  
+  #mainnav {
+    display: flex;
+  }
+  
+  #mainnav ul {
+    padding: 1.5625em 0 1.5625em 0;
+  }
+
+  section {
+    padding: 0;
+  }
+
+  .maincontent {
+    font-size: 2.125em;
+  }
+
+  header div {
+    text-align: center;
+  }
+
+  section {
+    min-height: 550px;
+  }
+
+  .content {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 350px;
+  }
+
+  footer div {
+    position: relative;
+  }
+
+}
+  
